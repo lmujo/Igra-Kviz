@@ -14,6 +14,7 @@ using namespace std;
 // Tu se jedini put navodi ova varijabla, a posto je ona u .h deklarirana kao "extern" moze se koristiti u svakoj funkciji projekta
 string imeIgraca;
 int brojPitanja[5];
+int bodovi;
 
 int main()
 {
@@ -23,7 +24,7 @@ int main()
 
     // Sami cin se prekida kod razmaka, ali getline cita cijelu liniju unosa (bar mislim lol)
     getline(cin, imeIgraca);
-    cin.ignore();
+    //cin.ignore();
 
     igra();
 

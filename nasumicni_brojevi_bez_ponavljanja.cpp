@@ -22,7 +22,7 @@ void odabirNasumicnihBrojeva()
     // Postavlja se novi seed kako bi se svaki put dobili razliciti rezultati
     srand(time(NULL));
 
-    for (int i=9; i > 0; --i)
+    for (int i=9; i > 0; i--)
     {
 
         // zamjena je nasumicni broj
@@ -39,6 +39,6 @@ void odabirNasumicnihBrojeva()
     for(int i=0; i<5; i++)
     {
     brojPitanja[i] = brojevi[i];
-    // cout << brojPitanja[i] << " ponavljanje " << i << endl; sluzilo je za provjeru nasumicnosti
+    cout << brojPitanja[i] << " ponavljanje " << i << endl; //sluzilo je za provjeru nasumicnosti
     }
 }
