@@ -4,6 +4,7 @@
 
 // Header koji navodi da su neke varijable "extern" oblika
 #include "extern_varijable.h"
+#include "igra.h"
 
 using namespace std;
 
@@ -13,6 +14,11 @@ int igra()
     unsigned int odabir; // int bez predznaka, dakle > 0
 
      // Ciscenje ekrana
+    system("cls");
+
+    // Uputa za odgovaranje na pitanja
+    cout << "Na pitanja odgovarajte sa slovom/brojem koji se nalazi unutar crtica (- -).\nNpr., za \"- a - ...\" odgovarate sa \"a\". Pritisni tipku Enter za nastavak..." << endl;
+    getch();
     system("cls");
 
     // Petlja koja se okrece dok god se ne pojavi "break"
@@ -37,6 +43,7 @@ int igra()
         {
             cout << "Pitanja iz kategorije Geografija. Pritisni tipku Enter za nastavak..." << endl;
             getch();
+            geografija();
             break;
         }
 

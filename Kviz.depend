@@ -1,11 +1,12 @@
 # depslib dependency file v1.0
-1483965826 source:f:\programs\codeblocks\programs\games\kviz\igra.cpp
+1483997844 source:f:\programs\codeblocks\programs\games\kviz\igra.cpp
 	<iostream>
 	<conio.h>
 	<windows.h>
 	"extern_varijable.h"
+	"igra.h"
 
-1483969398 source:f:\programs\codeblocks\programs\games\kviz\main.cpp
+1483999787 source:f:\programs\codeblocks\programs\games\kviz\main.cpp
 	<iostream>
 	<conio.h>
 	<windows.h>
@@ -13,17 +14,19 @@
 	"igra.h"
 	"extern_varijable.h"
 
-1483968831 f:\programs\codeblocks\programs\games\kviz\igra.h
+1483997869 f:\programs\codeblocks\programs\games\kviz\igra.h
 
-1483968141 f:\programs\codeblocks\programs\games\kviz\extern_varijable.h
+1483995987 f:\programs\codeblocks\programs\games\kviz\extern_varijable.h
 
-1483965797 source:f:\programs\codeblocks\programs\games\kviz\kategorije.cpp
+1483999883 source:f:\programs\codeblocks\programs\games\kviz\kategorije.cpp
 	<iostream>
 	<conio.h>
 	<windows.h>
 	<string>
+	"extern_varijable.h"
+	"igra.h"
 
-1483969388 source:f:\programs\codeblocks\programs\games\kviz\nasumicni_brojevi_bez_ponavljanja.cpp
+1483999708 source:f:\programs\codeblocks\programs\games\kviz\nasumicni_brojevi_bez_ponavljanja.cpp
 	<iostream>
 	<conio.h>
 	<windows.h>
